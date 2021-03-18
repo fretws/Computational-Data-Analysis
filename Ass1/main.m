@@ -7,7 +7,7 @@ AMATH 482 Assignment 1, Submarine Tracking
 %%
 clear; close all; clc
 
-load ../../AMATH482_data/Ass1/subdata.mat % Imports the data as the 262144x49 (space by time) matrix called subdata
+load subdata.mat % Imports the data as the 262144x49 (space by time) matrix called subdata
 
 L = 10; % spatial domain
 n = 64; % Fourier modes
