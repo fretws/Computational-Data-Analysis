@@ -12,9 +12,9 @@ w = 640;
 h = 480;
 
 %%
-load('C:/Users/sear/Documents/AMATH482_data/Ass3/cam1_1.mat')
-load('C:/Users/sear/Documents/AMATH482_data/Ass3/cam2_1.mat')
-load('C:/Users/sear/Documents/AMATH482_data/Ass3/cam3_1.mat')
+load('cam1_1.mat')
+load('cam2_1.mat')
+load('cam3_1.mat')
 
 %%
 if GRAPHICS
@@ -67,9 +67,9 @@ end
 
 %% Move on to Case 2
 clear vidFrames1_1 vidFrames2_1 vidFrames3_1
-load('C:/Users/sear/Documents/AMATH482_data/Ass3/cam1_2.mat')
-load('C:/Users/sear/Documents/AMATH482_data/Ass3/cam2_2.mat')
-load('C:/Users/sear/Documents/AMATH482_data/Ass3/cam3_2.mat')
+load('cam1_2.mat')
+load('cam2_2.mat')
+load('cam3_2.mat')
 
 %%
 if GRAPHICS
@@ -122,9 +122,9 @@ if GRAPHICS
 end
 %% Move on to Case 3
 clear vidFrames1_2 vidFrames2_2 vidFrames3_2
-load('C:/Users/sear/Documents/AMATH482_data/Ass3/cam1_3.mat')
-load('C:/Users/sear/Documents/AMATH482_data/Ass3/cam2_3.mat')
-load('C:/Users/sear/Documents/AMATH482_data/Ass3/cam3_3.mat')
+load('cam1_3.mat')
+load('cam2_3.mat')
+load('cam3_3.mat')
 
 %%
 if GRAPHICS
@@ -179,13 +179,13 @@ end
 
 %% Move on to Case 4
 clear vidFrames1_3 vidFrames2_3 vidFrames3_3
-load('C:/Users/sear/Documents/AMATH482_data/Ass3/cam1_4.mat')
+load('cam1_4.mat')
 T1 = length(vidFrames1_4(1,1,1,:));
 
-load('C:/Users/sear/Documents/AMATH482_data/Ass3/cam2_4.mat')
+load('cam2_4.mat')
 T2 = length(vidFrames2_4(1,1,1,:));
 
-load('C:/Users/sear/Documents/AMATH482_data/Ass3/cam3_4.mat')
+load('cam3_4.mat')
 T3 = length(vidFrames3_4(1,1,1,:));
 
 %%
