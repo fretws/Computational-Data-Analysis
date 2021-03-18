@@ -8,7 +8,7 @@ AMATH 482 Assignment 5, Foreground Extraction
 clear; close all;
 
 %% Read in video data
-rdr = VideoReader('C:/Users/sear/Documents/AMATH482_data/Ass5/monte_carlo_low.mp4');
+rdr = VideoReader('monte_carlo_low.mp4');
 N = rdr.NumFrames;
 frames = read(rdr,[1 N]);
 dt = rdr.Duration / rdr.NumFrames;
